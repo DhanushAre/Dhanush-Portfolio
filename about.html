@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #f0f0f0, #d9e4f5);
+            color: #333;
+            padding: 0 20px;
+        }
+
+        /* Header Styles */
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1.5rem;
+            background-color: #222;
+            color: #fff;
+        }
+
+        .branding h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #f5b642;
+        }
+
+        .branding p {
+            font-size: 1rem;
+            font-weight: 300;
+        }
+
+        /* Navbar Styles */
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .navbar ul li {
+            margin: 0 15px;
+        }
+
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        .navbar ul li a:hover {
+            color: #f5b642;
+        }
+
+        /* Content Styles */
+        .content {
+            max-width: 800px;
+            margin: 40px auto;
+            text-align: center;
+        }
+
+        .about-section {
+            display: flex;
+            flex-direction: column; /* Changed to column for vertical alignment */
+            align-items: center; /* Center horizontally */
+            margin-bottom: 40px;
+        }
+
+        .about-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px; /* Adjusted margin for spacing */
+        }
+
+        .about-text {
+            text-align: center; /* Center text */
+            max-width: 600px;
+        }
+
+        .details-section {
+            text-align: left;
+        }
+
+        .details-section h3 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #444;
+        }
+
+        /* About Me Details Section */
+        .about-me-details {
+            margin-top: 30px;
+            background: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 50px;
+        }
+
+        footer p {
+            margin-bottom: 10px;
+            font-weight: 300;
+            font-size: 1rem;
+        }
+
+        .social-links {
+            margin-top: 10px;
+        }
+
+        .social-links a {
+            color: #fff;
+            margin: 0 15px;
+            font-size: 2rem;
+            transition: color 0.3s, transform 0.3s;
+        }
+
+        .social-links a:hover {
+            color: #f5b642;
+            transform: scale(1.2);
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .navbar ul {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .navbar ul li {
+                margin: 10px 0;
+            }
+
+            .about-section {
+                align-items: center; /* Center for smaller screens */
+            }
+        }
+
+        @media (max-width: 480px) {
+ .content h2 {
+                font-size: 2rem;
+            }
+            .content p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="branding">
+            <h1>Dhanush Are</h1>
+            <p>Aspiring Techie</p>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="certifications.html">Certifications</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="about-me-details">
+    <div class="content">
+        <h2>About Me</h2>
+        <div class="about-section">
+            <img src="profile2.jpeg" alt="Dhanush Are" class="about-photo">
+            <div class="about-text">
+                <p>Hello! I'm <strong>Dhanush Are</strong>, a passionate and dedicated 
+                  <strong>Computer Science and Biosciences student</strong>. I specialize 
+                  in <strong>software development</strong> and <strong>bioscience</strong>, 
+                  and I love working on projects that involve <strong>developing solutions 
+                  to real-life problems</strong>, <strong>bioinformatics</strong>, and 
+                  <strong>web development</strong>.</p>
+                <p>With <strong>hands-on experience in laboratory research</strong> and 
+                  <strong>3 years in computer science</strong>, I have honed my skills in 
+                  <strong>Full-Stack Development</strong> and <strong>Bioinformatics</strong>. 
+                  I enjoy solving complex problems and continuously learning new things 
+                  to improve my craft.</p>
+                <p>In my free time, I enjoy <strong>watching movies</strong>, 
+                  <strong>reading books</strong>, <strong>practicing Data Structures and 
+                  Algorithms (DSA)</strong>, and <strong>exploring new technologies</strong>. 
+                  I'm always excited to connect with like-minded individuals and explore 
+                  new opportunities. Feel free to reach out to me!</p>
+            </div>
+        </div>
+
+        
+            <div class="details-section">
+                <h3>Skills</h3>
+                <ul>
+                    <li><strong>Languages:</strong> Java, Python,Biopython, HTML, CSS, JavaScript</li>
+                    <li><strong>Tools/Platforms:</strong> Git, GitHub</li>
+                    <li><strong>Developer Tools:</strong> VS Code, Android Studio, Eclipse IDE, Jupyter Notebook</li>
+                    <li><strong>Frameworks:</strong> React.js, Bootstrap, Spring Boot</li>
+                    <li><strong>Database:</strong> MySQL, SQLite</li>
+                    <li><strong>Bioinformatics Tools:</strong> Biopython</li>
+                </ul>
+
+                <!-- <h3>Experience</h3>
+                <p>I have worked at the following companies:</p>
+                <ul>
+                    <details>
+                        <summary>WSA Academy - MERN Fullstack Internship - 1 Month</summary>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis accusamus laudantium eligendi neque, architecto facilis numquam necessitatibus quod deserunt? Alias, autem saepe sint eaque expedita odit earum eos odio minus?</p>
+                    </details>
+                    <details>
+                        <summary>Prasunet - Web Development Intern - 1 Month</summary>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, facere hic. Ducimus perferendis laborum dolore ullam saepe deleniti. Enim asperiores ipsum dolorem sunt error! Iusto sit quas minima quia deleniti.</p>
+                    </details>
+                    <details>
+                        <summary>CodSoft - Web Development Intern - 1 Month</summary>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum maiores officiis soluta delectus mollitia reprehenderit, at cum laudantium obcaecati amet! Deserunt ullam quam veritatis nisi corporis distinctio totam! Est, at?</p>
+                    </details>
+                </ul> -->
+
+                <h3>Education</h3>
+                <p>I have obtained my education from the following institutions:</p>
+ <ul>
+                    <li>Centurion University of Technology and Management - B.Tech (CSE & Biosciences) - 8.2 (current) - 2025</li>
+                    <li>Sri Chaitanya Junior College - Intermediate - 81 % - [Sep 2019 - Jun 2021]</li>
+                </ul>
+
+                <h3>Certifications</h3>
+                <ul>
+                    <li>Java Course for Placements</li>
+                    <li>Certificate in Idea Pitching Competition</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Dhanush Are. All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="http://www.linkedin.com/in/are-dhanush-a4972321a" target="_blank" class="fab fa-linkedin"></a>
+            <a href="https://github.com/DhanushAre" target="_blank" class="fab fa-github"></a>
+            <a href="mailto:aredhanush54@gmail.com" class="fas fa-envelope"></a>
+        </div>
+    </footer>
+</body>
+</html>
